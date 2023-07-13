@@ -53,6 +53,7 @@ body {
 
 /* Landscape layout (with min-width) */
 
+/* COPY THIS CODE FOR THE NAVIGATION BAR */
 nav 
 {
     background: linear-gradient(178deg, #F5C096 0%, #FA9472 44.79%, #FEAA79 94.27%);
@@ -104,9 +105,12 @@ nav ul li a
     position:relative;
     display: inline-block;
     color: #081D22;
-
 }
 
+/* COPY THIS CODE FOR THE NAVIGATION BAR */
+
+
+/* COPY THIS CODE FOR THE HEADER */
 .header
 {
     width: 100%;
@@ -150,7 +154,9 @@ nav ul li a
 	justify-content: center;
     margin-top: 0%;
 }
-  
+
+/* COPY THIS CODE FOR THE HEADER */
+
 .request p
 {
     color: #4B946A;
