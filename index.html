@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!--
+        Customize this policy to fit your own app's needs. For more guidance, please refer to the docs:
+            https://cordova.apache.org/docs/en/latest/
+        Some notes:
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://*.fontawesome.com/  https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <meta name="color-scheme" content="light dark">
+        <link rel="stylesheet" href="css/index.css">
+        <script src="https://kit.fontawesome.com/120399c45c.js" crossorigin="anonymous"></script>
+        <title> Decluttering Application </title>
+    </head>
+    <body>
+        <!--<div class="header"></div>-->
+
+        <div class="nav_bar">
+            <nav> 
+                <ul>
+
+                    <li> <a href="#">
+                        <div class="icon"> <i class="fa-solid fa-hand-back-fist"  aria-hidden="true"> </i> </div>
+                        <div class="name" data-text="Message"> Collect </div>
+                    </a></li>
+                    <li><a href="#Donate">
+                        <div class="icon"> <i class="fas fa-hand-holding"  aria-hidden="true"> </i> </div>
+                        <div class="name" data-text="Donate"> Donate </div>
+                    </a></li>
+                    <li><a href="#Request">
+                        <div class="icon"> <i class="fa-solid fa-hands-praying"  aria-hidden="true"> </i> </div>
+                        <div class="name" data-text="Request"> Request </div>
+                    </a></li>
+                    <li><a href="#Message">
+                        <div class="icon"> <i class="fa-solid fa-comment-dots"  aria-hidden="true"> </i> </div>
+                        <div class="name" data-text="Message"> Message </div>
+                    </a></li>
+                    <li><a href="#Profile">
+                        <div class="icon"> <i class="fa-solid fa-user"  aria-hidden="true"> </i> </div>
+                        <div class="name" data-text="Profile"> Profile </div>
+                    </a></li>
+
+                </ul>
+            </nav>
+        </div>
+        <section id="Collect">
+           <div class="header">
+                <div class="header_content"> 
+                    <h1> Collect </h1> 
+                </div>
+            </div>
+            <div class="container">
+            </div>
+        </section>
+
+        <section id="Donate"> 
+            <div class="header">
+                <div class="header_content"> 
+                    <h1> Donate </h1> 
+                </div>
+            </div>
+            <div class="donate container">
+                
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur reprehenderit quos non amet placeat tenetur sequi laboriosam in, 
+                    porro quasi cum laborum aperiam molestias magnam eligendi sunt et inventore animi!</p>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur reprehenderit quos non amet placeat tenetur sequi laboriosam in, 
+                        porro quasi cum laborum aperiam molestias magnam eligendi sunt et inventore animi!</p>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur reprehenderit quos non amet placeat tenetur sequi laboriosam in, 
+                            porro quasi cum laborum aperiam molestias magnam eligendi sunt et inventore animi!</p>
+            </div>
+        </section>
+
+        <section id="Request"> 
+            <div class="header">
+                <div class="header_content"> 
+                    <h1> Request </h1> 
+                </div>
+            </div>
+            
+            <div class="request container">
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur reprehenderit quos non amet placeat tenetur sequi laboriosam in, 
+                    porro quasi cum laborum aperiam molestias magnam eligendi sunt et inventore animi!</p>
+            </div>
+        </section>
+
+        <section id="Message">
+            <div class="header">
+                 <div class="header_content"> 
+                     <h1> Message </h1> 
+                 </div>
+             </div>
+             <div class="container">
+             </div>
+         </section>
+       
+        <section id="Profile">
+            <div class="header">
+                 <div class="header_content"> 
+                     <h1> Profile </h1> 
+                 </div>
+             </div>
+             <div class="container">
+             </div>
+         </section>
+
+        <!--<script src="cordova.js"></script>-->
+        <script src="js/index.js"></script>
+    </body>
+</html>
